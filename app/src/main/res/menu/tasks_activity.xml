@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NO TOCAR -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnuFilter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/tasks_mnuFilter"
+        app:showAsAction="ifRoom|withText"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/mnuAdd"
+        android:icon="@drawable/ic_add_task"
+        android:title="@string/tasks_mnuAdd"
+        app:showAsAction="ifRoom|withText"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/mnuComplete"
+        android:icon="@drawable/ic_filter_task_completed"
+        android:title="@string/tasks_mnuComplete"
+        app:showAsAction="never"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/mnuPending"
+        android:icon="@drawable/ic_filter_task_pending"
+        android:title="@string/tasks_mnuPending"
+        app:showAsAction="never"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/mnuDelete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/tasks_mnuDelete"
+        app:showAsAction="never"
+        app:iconTint="@color/white" />
+</menu>

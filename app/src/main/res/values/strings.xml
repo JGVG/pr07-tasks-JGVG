@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Tasks</string>
+
+    <!-- Categories -->
+    <string name="category_other">Other</string>
+    <string name="category_home">Home</string>
+    <string name="category_work">Work</string>
+    <string name="category_leisure">Leisure</string>
+    <string name="category_family">Family</string>
+
+    <!-- Tasks activity layout -->
+    <string name="tasks_filter_pending">Pending</string>
+    <string name="tasks_filter_completed">Completed</string>
+    <string name="tasks_filter_all">All</string>
+    <string name="tasks_lblFilter">Filter</string>
+    <string name="tasks_imgFilter">Current filter</string>
+
+    <!-- Tasks activity menu -->
+    <string name="tasks_mnuAdd">Add</string>
+    <string name="tasks_mnuFilter">Filter</string>
+    <string name="tasks_mnuDelete">Delete all</string>
+    <string name="tasks_mnuComplete">Mark all as completed</string>
+    <string name="tasks_mnuPending">Mark all as pending</string>
+
+    <!-- Tasks activity code -->
+    <string name="tasks_title_all">Tasks</string>
+    <string name="tasks_title_pending">Tasks (pending)</string>
+    <string name="tasks_title_completed">Tasks (completed)</string>
+    <string name="tasks_no_tasks_yet">No tasks yet</string>
+    <string name="tasks_no_pending_tasks_yet">No pending tasks yet</string>
+    <string name="tasks_no_completed_tasks_yet">No completed tasks yet</string>
+    <string name="tasks_no_tasks_to_delete">No tasks to delete</string>
+    <string name="tasks_task_deleted">Deleted task: %1$s</string>
+    <string name="tasks_recreate">Recreate</string>
+    <string name="tasks_title">Tasks (%s)</string>
+
+    <!-- Tasks activity item layout -->
+    <string name="tasks_item_imgCategory">Category</string>
+
+    <!-- Tasks activity adapter -->
+    <string name="tasks_item_completedAt">Completed at %1$s</string>
+    <string name="tasks_item_createdAt">Created at %1$s</string>
+
+    <!-- AddTask activity layout -->
+    <string name="add_task_lblConcept">Concept</string>
+    <string name="add_task_txtConcept">(Description)</string>
+    <string name="add_task_lblCategory">Category</string>
+
+    <!-- AddTask activity menu -->
+    <string name="add_task_mnuSave">Save</string>
+
+    <!-- AddTask activity code -->
+    <string name="add_task_data_required">All fields required</string>
+
+</resources>
